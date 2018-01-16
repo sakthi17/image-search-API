@@ -29,16 +29,18 @@ Here are the specific user stories implemented for this project
 
    ```
    [
-     {
+       {
               "url"        : "http://s3.india.com/wp-content/uploads/2016/12/Happy-New-Year.jpg",
               "contexturl" : "http://www.india.com/buzz/happy-new-year-2017-best-new-year-wishes-sms-facebook-status-whatsapp-messages-to-send-happy-new-year-greetings-821595/",
               "thumbnail"  : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrip4VtXgH02_YhCe_9IFxeNJNTELv28UUiTvbJyzdInblMZ5T8v33mfx-",
-              "title"      : "Happy New Year 2017: Best New Year Wishes, SMS, Facebook Status ..."},
-    {
+              "title"      : "Happy New Year 2017: Best New Year Wishes, SMS, Facebook Status ..."
+      },
+      {
               "url"        : "http://www.zandxcars.com/wp-content/uploads/2018/01/1137966_1280x720.jpg",
               "contexturl" : "http://www.zandxcars.com/want-start-new-year-right-forget-resolutions/",
               "thumbnail"  : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2VGHtqBEHSVKAfqTeFuFCsoxYua9RK2PxEomyOyNGKAf6BV3C18vCH5nv",
-              "title"      : "Want to Start the New Year Right? Forget the Resolutions - Z&X Car ..."}
+              "title"      : "Want to Start the New Year Right? Forget the Resolutions - Z&X Car ..."
+     }
   ]
   
   ```
@@ -50,9 +52,11 @@ Here are the specific user stories implemented for this project
 
 **Response**
         
-   ```[
+   ```
+   [
      {"topic":"new year","time":"Tue Jan 16 2018 14:27:38 GMT+0000 (UTC)"},
      {"topic":"christmas","time":"Tue Jan 16 2018 14:41:16 GMT+0000 (UTC)"},
      {"topic":"christmas","time":"Tue Jan 16 2018 14:43:47 GMT+0000 (UTC)"},
-   ]```
+   ] 
+   ```
         
