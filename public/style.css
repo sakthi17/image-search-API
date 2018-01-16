@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+header
+{
+   text-align: center;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body > div{
+    padding:0 40px;
+}
+
+blockquote{
+  background-color: #8ba3af7a;
+  padding:10px;
+  border: 1px solid transparent;
+}
+
+pre{
+  background-color:aliceblue;
+  overflow:scroll
+}

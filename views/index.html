@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search Abstraction API</title>
+    <meta name="Image Search Abstraction API" content="Project developed for Freecodecamp BackEnd Challenge">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Image Search Abstraction Layer </h1>
+    </header>
+    <div>   
+      <h3> Objective:</h3>
+      <p>To build a full stack JavaScript app that allows you to search for images and browse recent search queries</p>
+      <p>Here are the specific user stories implemented for this project </p>
+      <h3> User Story 1: </h3>
+      <p> I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</p>
+      <h3> User Story 2: </h3>
+      <p> I can paginate through the responses by adding a ?offset=2 parameter to the URL.</p>
+      <h3> User Story 3: </h3>
+      <p> I can get a list of the most recently submitted search strings.</p>
+    </div>
+    <div>
+      <h3> Example Usage to Search for Image</h3>
+      <blockquote><a href="https://image-search-layer-api.glitch.me/api/imagesearch/new year/2" target="_blank"> https://image-search-layer-api.glitch.me/api/imagesearch/new year/2</a></blockquote>
+      <h3>Response</h3>
+      <pre>
+        <code>
+          [
+            {
+              "url"        : "http://s3.india.com/wp-content/uploads/2016/12/Happy-New-Year.jpg",
+              "contexturl" : "http://www.india.com/buzz/happy-new-year-2017-best-new-year-wishes-sms-facebook-status-whatsapp-messages-to-send-happy-new-year-greetings-821595/",
+              "thumbnail"  : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrip4VtXgH02_YhCe_9IFxeNJNTELv28UUiTvbJyzdInblMZ5T8v33mfx-",
+              "title"      : "Happy New Year 2017: Best New Year Wishes, SMS, Facebook Status ..."},
+            {
+              "url"        : "http://www.zandxcars.com/wp-content/uploads/2018/01/1137966_1280x720.jpg",
+              "contexturl" : "http://www.zandxcars.com/want-start-new-year-right-forget-resolutions/",
+              "thumbnail"  : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2VGHtqBEHSVKAfqTeFuFCsoxYua9RK2PxEomyOyNGKAf6BV3C18vCH5nv",
+              "title"      : "Want to Start the New Year Right? Forget the Resolutions - Z&X Car ..."}
+          ]
+        </code>  
+      </pre>
+      
+      <h3> Example Usage to Browse Recent History</h3>
+      <blockquote><a href= "https://image-search-layer-api.glitch.me/api/latest/imagesearch" target="_blank">https://image-search-layer-api.glitch.me/api/latest/imagesearch</a></blockquote>
+      <h3>Response</h3>
+      <pre>
+        <code>
+          [
+            {"topic":"new year","time":"Tue Jan 16 2018 14:27:38 GMT+0000 (UTC)"},
+            {"topic":"christmas","time":"Tue Jan 16 2018 14:41:16 GMT+0000 (UTC)"},
+            {"topic":"christmas","time":"Tue Jan 16 2018 14:43:47 GMT+0000 (UTC)"},
+          ]     
+        </code>
+      </pre>
+    </div>
+  </body>
+</html>
